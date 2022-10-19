@@ -1,9 +1,9 @@
 # Entire file updated manually
 readonly prev_os_branch=lineage-19.1
-readonly os_branch=lineage-20.0
+readonly os_branch=creative-13.0
 
 readonly prev_device_branch=lineage-19.1
-readonly device_branch=lineage-20
+readonly device_branch=creative-20.0
 
 readonly prev_common_aosp_tag=android-13.0.0_r8 # Oct 2022, Pixel 6a
 readonly common_aosp_tag=android-13.0.0_r11 # Oct 2022, Pixel 7

@@ -1,13 +1,13 @@
-# Inherit full common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full.mk)
+# Inherit full common Creative stuff
+$(call inherit-product, vendor/creative/config/common_full.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \
     LatinIME
 
 # Include Lineage LatinIME dictionaries
-PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/dictionaries
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay/dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/creative/overlay/dictionaries
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/creative/overlay/dictionaries
 
 # Enable support of one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -20,4 +20,4 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.build.gms_fingerprint=$(PRODUCT_OVERRIDE_GMS_FINGERPRINT)
 endif
 
-$(call inherit-product, vendor/lineage/config/telephony.mk)
+$(call inherit-product, vendor/creative/config/telephony.mk)
